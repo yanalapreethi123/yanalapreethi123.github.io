@@ -1,0 +1,31 @@
+import java.util.*;
+public class Main{
+  public static void main(String[] args){
+    ArrayList<String> arr=new ArrayList<>();
+    arr.add("Red");
+    arr.add("Yellow");
+    arr.add("Pink");
+    arr.add("Orange");
+    arr.add("Blue");
+    System.out.println(arr);
+    int ln=arr.size();
+    System.out.println(ln);
+    /*for (int i=0;i<ln;i++){
+      System.out.println(arr.get(i));
+    }*/
+    for (String i:arr){
+      System.out.println(i);
+    }
+    System.out.println("Enter the index of number you want:");
+    Scanner s=new Scanner(System.in);
+    int getindex=s.nextInt();
+    String atindex=arr.get(getindex);
+    System.out.println(atindex);
+    String search=s.next();
+    for (String i:arr){
+      if (i.equals(search)){
+        System.out.println(arr.getIndex(i));
+      }
+    }
+  }
+} 
