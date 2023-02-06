@@ -16,7 +16,7 @@ public class Main{
     for (String i:arr){
       System.out.println(i);
     }
-    System.out.println("Enter the index of number you want:");
+    System.out.println("Enter the Index of number you want:");
     Scanner s=new Scanner(System.in);
     int getindex=s.nextInt();
     String atindex=arr.get(getindex);
