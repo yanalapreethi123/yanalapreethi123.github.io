@@ -1,0 +1,179 @@
+dhaya@dell-e7450-w8 MINGW64 /e/SA
+$ ls
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA
+$ git config --global user.name "Karpagavalli"
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA
+$ git config --global user.email "Karpagagit123@gmail.com"
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+gui.recentrepo=C:/Users/dhaya/Demo123
+gui.recentrepo=D:/firstgitrepo
+gui.recentrepo=D:/GitFinal
+gui.recentrepo=C:/Users/dhaya/Projs
+user.name=Karpagavalli
+user.email=Karpagagit123@gmail.com
+credential.helper=manager-core
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA
+$ git init comcast
+Initialized empty Git repository in E:/SA/comcast/.git/
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA
+$ git clone https://github.com/Karpagavalli123/ManageEngines.git
+Cloning into 'ManageEngines'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (10/10), done.
+Checking connectivity... done.
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA
+$ cd manageengines
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines (main)
+$ ls
+Tour.java
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines (main)
+$ cat tour.java
+
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines (main)
+$ cd products
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+nothing to commit, working directory clean
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ ls
+ProductsView.txt.txt
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ ls
+ProductsView.txt
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git add ProductsView.txt
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   ProductsView.txt
+
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git commit -m "ProductsFile added Successfully"
+[main 1c736e3] ProductsFile added Successfully
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 products/ProductsView.txt
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        EmployeeDetails.txt
+        VendorDetails.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git add EmployeeDetails.txt
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git add VendorDetails.txt
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   EmployeeDetails.txt
+        new file:   VendorDetails.txt
+
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git commit -m "2Files added Successfully"
+[main 16f2736] 2Files added Successfully
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 products/EmployeeDetails.txt
+ create mode 100644 products/VendorDetails.txt
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$ git log
+commit 16f2736f1db1b8450eb3b9e13c57610128b757d6
+Author: Karpagavalli <Karpagagit123@gmail.com>
+Date:   Mon Feb 6 12:46:40 2023 +0530
+
+    2Files added Successfully
+
+commit 1c736e3a4ed890ddcb009eded4159a9e8bcff93c
+Author: Karpagavalli <Karpagagit123@gmail.com>
+Date:   Mon Feb 6 12:41:48 2023 +0530
+
+    ProductsFile added Successfully
+
+commit cd52a28097605bcd4d428da2126975d3737b8e45
+Author: Karpagavalli123 <106547341+Karpagavalli123@users.noreply.github.com>
+Date:   Mon May 30 23:17:01 2022 +0530
+
+    Create Tour.java
+
+dhaya@dell-e7450-w8 MINGW64 /e/SA/manageengines/products (main)
+$
