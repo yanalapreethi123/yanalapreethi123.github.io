@@ -1,8 +1,4 @@
-dhaya@dell-e7450-w8 MINGW64 /e/SA
-$ ls
-
-dhaya@dell-e7450-w8 MINGW64 /e/SA
-$ git config --global user.name "Karpagavalli"
+dhaya@dell-e7450-w8
 
 dhaya@dell-e7450-w8 MINGW64 /e/SA
 $ git config --global user.email "Karpagagit123@gmail.com"
